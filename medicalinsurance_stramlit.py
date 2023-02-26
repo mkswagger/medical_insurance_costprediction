@@ -28,7 +28,7 @@ def main():
     cost = ""
     
     if st.button("Test Results : "):
-        cost = health_insurance_cost([Age,Sex,bmi,children,smoker])
+        cost = insurance([Age,Sex,bmi,children,smoker])
     
     st.success(cost)
 
