@@ -23,7 +23,7 @@ def main():
     Age = st.text_input('Age')
     Sex = st.text_input('Sex (1->Male, 0->Female)')
     bmi = st.text_input('BMI')
-    children = st.input("No of children:")
+    children = st.text_input("No of children:")
     smoker = st.text_input("Smoker or not (0->non smoker, 1 -> non smoker")
     cost = ""
     
